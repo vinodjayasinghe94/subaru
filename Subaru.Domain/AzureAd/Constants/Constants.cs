@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ***********************************************************************************************/
 
-namespace Microsoft.Identity.Web
+namespace Subaru.Domain.AzureAd.Constants
 {
     /// <summary>
     /// claim keys constants

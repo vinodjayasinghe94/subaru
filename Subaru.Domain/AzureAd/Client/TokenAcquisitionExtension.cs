@@ -24,13 +24,12 @@ SOFTWARE.
 
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Identity.Web.Client;
-using Microsoft.Identity.Web.Client.TokenCacheProviders;
+using Subaru.Domain.AzureAd.Client.TokenCacheProviders;
 using System.Runtime.CompilerServices;
 
 [assembly: InternalsVisibleTo("TokenCache.Tests.Core")]
 
-namespace Microsoft.Identity.Web
+namespace Subaru.Domain.AzureAd.Client
 {
     /// <summary>
     /// Extension methods

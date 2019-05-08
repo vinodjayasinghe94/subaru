@@ -24,7 +24,7 @@ SOFTWARE.
 
 using System;
 
-namespace Microsoft.Identity.Web.Client.TokenCacheProviders
+namespace Subaru.Domain.AzureAd.Client.TokenCacheProviders.InMemory
 {
     /// <summary>
     /// MSAL's memory token cache options

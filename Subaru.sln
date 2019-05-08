@@ -18,19 +18,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructue", "Infrastructue", "{C4BBC6AD-36EC-401E-A196-6AEC512545B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subaru.Application", "Subaru.Application\Subaru.Application.csproj", "{39FF6106-3C49-4AC2-B07F-16DA24CCBAB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subaru.Application", "Subaru.Application\Subaru.Application.csproj", "{39FF6106-3C49-4AC2-B07F-16DA24CCBAB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subaru.Application.Tests", "Subaru.Application.Tests\Subaru.Application.Tests.csproj", "{4F4AFB73-8005-45D1-8AC0-B5F25DD568D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subaru.Application.Tests", "Subaru.Application.Tests\Subaru.Application.Tests.csproj", "{4F4AFB73-8005-45D1-8AC0-B5F25DD568D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subaru.Domain.Tests", "Subaru.Domain.Tests\Subaru.Domain.Tests.csproj", "{70EBDEE6-13E7-424F-B358-FD97182B23C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subaru.Domain.Tests", "Subaru.Domain.Tests\Subaru.Domain.Tests.csproj", "{70EBDEE6-13E7-424F-B358-FD97182B23C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subaru.Infrastructure", "Subaru.Infrastructure\Subaru.Infrastructure.csproj", "{2AAF4071-CB8C-4723-A8BC-BBE8452F0761}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subaru.Infrastructure", "Subaru.Infrastructure\Subaru.Infrastructure.csproj", "{2AAF4071-CB8C-4723-A8BC-BBE8452F0761}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{8D919CB9-444F-4D28-9B5C-5BFC6B571701}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subaru.Web", "Subaru.Web\Subaru.Web.csproj", "{FCC0AB85-1572-4B16-AAF7-227F869D89F8}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subaru.Domain", "Subaru.Domain\Subaru.Domain.csproj", "{00926EA7-488D-4217-B780-ABB7086C875F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subaru.WebUI", "Subaru.WebUI\Subaru.WebUI.csproj", "{5C494FC3-C0D2-4AB6-9C72-FB76B6E0ECB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,14 +54,14 @@ Global
 		{2AAF4071-CB8C-4723-A8BC-BBE8452F0761}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AAF4071-CB8C-4723-A8BC-BBE8452F0761}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AAF4071-CB8C-4723-A8BC-BBE8452F0761}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FCC0AB85-1572-4B16-AAF7-227F869D89F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FCC0AB85-1572-4B16-AAF7-227F869D89F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FCC0AB85-1572-4B16-AAF7-227F869D89F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FCC0AB85-1572-4B16-AAF7-227F869D89F8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{00926EA7-488D-4217-B780-ABB7086C875F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{00926EA7-488D-4217-B780-ABB7086C875F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00926EA7-488D-4217-B780-ABB7086C875F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00926EA7-488D-4217-B780-ABB7086C875F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C494FC3-C0D2-4AB6-9C72-FB76B6E0ECB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C494FC3-C0D2-4AB6-9C72-FB76B6E0ECB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C494FC3-C0D2-4AB6-9C72-FB76B6E0ECB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C494FC3-C0D2-4AB6-9C72-FB76B6E0ECB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,8 +75,8 @@ Global
 		{70EBDEE6-13E7-424F-B358-FD97182B23C3} = {097209B8-4F1F-4B29-A27A-F9ABD1427496}
 		{2AAF4071-CB8C-4723-A8BC-BBE8452F0761} = {C4BBC6AD-36EC-401E-A196-6AEC512545B6}
 		{8D919CB9-444F-4D28-9B5C-5BFC6B571701} = {E8F8A632-7661-483B-AD71-34366BDB0762}
-		{FCC0AB85-1572-4B16-AAF7-227F869D89F8} = {D4550D88-9C70-4200-A248-E75C97911335}
 		{00926EA7-488D-4217-B780-ABB7086C875F} = {6EEB7331-C5E9-4F98-B447-65F26C987F5F}
+		{5C494FC3-C0D2-4AB6-9C72-FB76B6E0ECB6} = {D4550D88-9C70-4200-A248-E75C97911335}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0BFD66A-FFBE-4174-842F-EBA5C74992C8}

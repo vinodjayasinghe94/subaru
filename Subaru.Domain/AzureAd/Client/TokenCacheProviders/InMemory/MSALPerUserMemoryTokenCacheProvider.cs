@@ -26,9 +26,10 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Identity.Client;
+using Subaru.Domain.AzureAd.Extensions;
 using System.Security.Claims;
 
-namespace Microsoft.Identity.Web.Client.TokenCacheProviders
+namespace Subaru.Domain.AzureAd.Client.TokenCacheProviders.InMemory
 {
     /// <summary>
     /// An implementation of token cache for both Confidential and Public clients backed by MemoryCache.

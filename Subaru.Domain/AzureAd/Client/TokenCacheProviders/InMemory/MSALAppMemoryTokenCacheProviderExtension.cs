@@ -28,7 +28,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using System;
 
-namespace Microsoft.Identity.Web.Client.TokenCacheProviders
+namespace Subaru.Domain.AzureAd.Client.TokenCacheProviders.InMemory
 {
     public static class MSALAppMemoryTokenCacheProviderExtension
     {

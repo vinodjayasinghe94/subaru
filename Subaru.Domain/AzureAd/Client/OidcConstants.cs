@@ -1,4 +1,4 @@
-namespace Microsoft.Identity.Web.Client
+namespace Subaru.Domain.AzureAd.Client
 {
     public static class OidcConstants
     {

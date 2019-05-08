@@ -3,7 +3,7 @@ using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
 
-namespace Microsoft.Identity.Web.Resource
+namespace Subaru.Domain.AzureAd.Resource
 {
     /// <summary>
     /// Diagnostics for the JwtBearer middleware (used in Web APIs)

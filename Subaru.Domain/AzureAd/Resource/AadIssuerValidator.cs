@@ -25,6 +25,7 @@ SOFTWARE.
 using Microsoft.IdentityModel.Protocols;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
+using Subaru.Domain.AzureAd.Constants;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
@@ -32,7 +33,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Microsoft.Identity.Web.Resource
+namespace Subaru.Domain.AzureAd.Resource
 {
     /// <summary>
     /// Generic class that validates token issuer from the provided Azure AD authority

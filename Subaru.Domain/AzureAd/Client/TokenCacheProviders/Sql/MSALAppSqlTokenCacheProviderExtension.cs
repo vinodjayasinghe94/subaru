@@ -29,7 +29,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
-namespace Microsoft.Identity.Web.Client.TokenCacheProviders
+namespace Subaru.Domain.AzureAd.Client.TokenCacheProviders.Sql
 {
     public static class MSALAppSqlTokenCacheProviderExtension
     {

@@ -30,7 +30,7 @@ using System;
 using System.Diagnostics;
 using System.Threading;
 
-namespace Microsoft.Identity.Web.Client.TokenCacheProviders
+namespace Subaru.Domain.AzureAd.Client.TokenCacheProviders.Session
 {
     /// <summary>
     /// An implementation of token cache for Confidential clients backed by Http session.

@@ -24,7 +24,7 @@ SOFTWARE.
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Microsoft.Identity.Web.Client.TokenCacheProviders
+namespace Subaru.Domain.AzureAd.Client.TokenCacheProviders.Sql
 {
     /// <summary>
     /// The DBContext that is used by the TokenCache providers to read and write to a Sql database.

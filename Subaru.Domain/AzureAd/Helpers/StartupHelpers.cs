@@ -3,13 +3,14 @@ using Microsoft.AspNetCore.Authentication.AzureAD.UI;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Identity.Web.Client;
-using Microsoft.Identity.Web.Resource;
 using Microsoft.IdentityModel.Protocols.OpenIdConnect;
+using Subaru.Domain.AzureAd.Client;
+using Subaru.Domain.AzureAd.Extensions;
+using Subaru.Domain.AzureAd.Resource;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Microsoft.Identity.Web
+namespace Subaru.Domain.AzureAd.Helpers
 {
     public static class StartupHelpers
     {

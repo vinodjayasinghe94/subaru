@@ -30,7 +30,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.Identity.Client;
 using System;
 
-namespace Microsoft.Identity.Web.Client.TokenCacheProviders
+namespace Subaru.Domain.AzureAd.Client.TokenCacheProviders.InMemory
 {
     /// <summary>
     /// An implementation of token cache for Confidential clients backed by MemoryCache.

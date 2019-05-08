@@ -4,7 +4,7 @@ using Microsoft.Identity.Client;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Microsoft.Identity.Web.Client
+namespace Subaru.Domain.AzureAd.Client
 {
     public interface ITokenAcquisition
     {
@@ -71,7 +71,7 @@ namespace Microsoft.Identity.Web.Client
         /// };
         /// </code>
         /// </example>
-        void AddAccountToCacheFromJwt(AspNetCore.Authentication.JwtBearer.TokenValidatedContext tokenValidationContext, IEnumerable<string> scopes = null);
+        void AddAccountToCacheFromJwt(Microsoft.AspNetCore.Authentication.JwtBearer.TokenValidatedContext tokenValidationContext, IEnumerable<string> scopes = null);
 
         /// <summary>
         /// [not recommended] In a Web App, adds, to the MSAL.NET cache, the account of the user authenticating to the Web App.

@@ -1,7 +1,8 @@
 ﻿using Microsoft.Identity.Client;
+using Subaru.Domain.AzureAd.Constants;
 using System.Security.Claims;
 
-namespace Microsoft.Identity.Web
+namespace Subaru.Domain.AzureAd.Extensions
 {
     public static class ClaimsPrincipalExtension
     {

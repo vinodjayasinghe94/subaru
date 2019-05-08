@@ -32,7 +32,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
-namespace Microsoft.Identity.Web.Client.TokenCacheProviders
+namespace Subaru.Domain.AzureAd.Client.TokenCacheProviders.Sql
 {
     /// <summary>
     /// An implementation of token cache for Confidential clients backed by Sql server and Entity Framework

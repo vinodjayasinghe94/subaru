@@ -3,12 +3,12 @@ using Microsoft.AspNetCore.Authentication.AzureAD.UI;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Identity.Web.Client;
-using Microsoft.Identity.Web.Resource;
+using Subaru.Domain.AzureAd.Client;
+using Subaru.Domain.AzureAd.Resource;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Microsoft.Identity.Web
+namespace Subaru.Domain.AzureAd.Helpers
 {
     public static class WebApiStartupHelpers
     {

@@ -30,8 +30,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Primitives;
 using Microsoft.Identity.Client;
-using Microsoft.Identity.Web.Client.TokenCacheProviders;
 using Microsoft.Net.Http.Headers;
+using Subaru.Domain.AzureAd.Client.TokenCacheProviders;
+using Subaru.Domain.AzureAd.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -41,7 +42,7 @@ using System.Net;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace Microsoft.Identity.Web.Client
+namespace Subaru.Domain.AzureAd.Client
 {
     /// <summary>
     /// Token acquisition service
@@ -225,7 +226,7 @@ namespace Microsoft.Identity.Web.Client
         /// }
         /// </code>
         /// </example>
-        public void AddAccountToCacheFromJwt(AspNetCore.Authentication.OpenIdConnect.TokenValidatedContext tokenValidatedContext, IEnumerable<string> scopes = null)
+        public void AddAccountToCacheFromJwt(Microsoft.AspNetCore.Authentication.OpenIdConnect.TokenValidatedContext tokenValidatedContext, IEnumerable<string> scopes = null)
         {
             if (tokenValidatedContext == null)
                 throw new ArgumentNullException(nameof(tokenValidatedContext));

@@ -26,7 +26,7 @@ using Microsoft.AspNetCore.Authentication.AzureAD.UI;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
-namespace Microsoft.Identity.Web.Client.TokenCacheProviders
+namespace Subaru.Domain.AzureAd.Client.TokenCacheProviders.Session
 {
     public static class MSALAppSessionTokenCacheProviderExtension
     {

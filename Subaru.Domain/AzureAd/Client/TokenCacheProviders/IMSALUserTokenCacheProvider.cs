@@ -26,7 +26,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Identity.Client;
 using System.Security.Claims;
 
-namespace Microsoft.Identity.Web.Client.TokenCacheProviders
+namespace Subaru.Domain.AzureAd.Client.TokenCacheProviders
 {
     /// <summary>
     /// MSAL token cache provider interface for user accounts

@@ -6,8 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Identity.Client;
 using Microsoft.IdentityModel.Protocols.OpenIdConnect;
+using Subaru.Domain.AzureAd.Extensions;
 
-namespace Microsoft.Identity.Web.Client
+namespace Subaru.Domain.AzureAd.Client
 {
     /// <summary>
     /// Filter used on a controller action to trigger an incremental consent.
