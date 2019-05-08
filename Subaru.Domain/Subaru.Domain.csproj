@@ -11,4 +11,8 @@
     <PackageReference Include="Microsoft.Graph" Version="1.15.0" />
     <PackageReference Include="Microsoft.Identity.Client" Version="3.0.3-preview" />
   </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Subaru.Presistance\Subaru.Presistance.csproj" />
+  </ItemGroup>
 </Project>

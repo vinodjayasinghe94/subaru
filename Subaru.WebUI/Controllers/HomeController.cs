@@ -36,7 +36,7 @@ namespace Subaru.WebUI.Controllers
         [MsalUiRequiredExceptionFilter(Scopes = new[] { ClaimConstants.ScopeUserRead })]
         public async Task<IActionResult> Profile()
         {
-            Graph::GraphServiceClient graphClient = GetGraphServiceClient(new[] { ClaimConstants.ScopeUserRead });
+            GraphServiceClient graphClient = GetGraphServiceClient(new[] { ClaimConstants.ScopeUserRead });
 
             var me = await graphClient.Me.Request().GetAsync();
             ViewData["Me"] = me;
@@ -91,7 +91,7 @@ namespace Subaru.WebUI.Controllers
             return View();
         }
 
-        private Graph::GraphServiceClient GetGraphServiceClient(string[] scopes)
+        private GraphServiceClient GetGraphServiceClient(string[] scopes)
         {
             return GraphServiceClientFactory.GetAuthenticatedGraphClient(async () =>
             {

@@ -30,6 +30,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subaru.Domain", "Subaru.Dom
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subaru.WebUI", "Subaru.WebUI\Subaru.WebUI.csproj", "{5C494FC3-C0D2-4AB6-9C72-FB76B6E0ECB6}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subaru.Presistance", "Subaru.Presistance\Subaru.Presistance.csproj", "{F464705B-4F42-4E0C-B634-98E9BDC3E0F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +58,10 @@ Global
 		{5C494FC3-C0D2-4AB6-9C72-FB76B6E0ECB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C494FC3-C0D2-4AB6-9C72-FB76B6E0ECB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C494FC3-C0D2-4AB6-9C72-FB76B6E0ECB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F464705B-4F42-4E0C-B634-98E9BDC3E0F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F464705B-4F42-4E0C-B634-98E9BDC3E0F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F464705B-4F42-4E0C-B634-98E9BDC3E0F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F464705B-4F42-4E0C-B634-98E9BDC3E0F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +76,7 @@ Global
 		{8D919CB9-444F-4D28-9B5C-5BFC6B571701} = {E8F8A632-7661-483B-AD71-34366BDB0762}
 		{00926EA7-488D-4217-B780-ABB7086C875F} = {6EEB7331-C5E9-4F98-B447-65F26C987F5F}
 		{5C494FC3-C0D2-4AB6-9C72-FB76B6E0ECB6} = {D4550D88-9C70-4200-A248-E75C97911335}
+		{F464705B-4F42-4E0C-B634-98E9BDC3E0F3} = {C4BBC6AD-36EC-401E-A196-6AEC512545B6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0BFD66A-FFBE-4174-842F-EBA5C74992C8}
